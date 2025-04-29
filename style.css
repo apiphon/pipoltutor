@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif; /* เลือก Font ที่เหมาะสม */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333; /* สีข้อความ */
+    background-color: #f4f4f4; /* สีพื้นหลัง */
+}
+
+header {
+    background: #50a3a2; /* สีพื้นหลัง Header */
+    color: #fff; /* สีข้อความ Header */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+main {
+    padding: 2rem 1rem;
+    max-width: 800px; /* กำหนดความกว้างสูงสุดของเนื้อหา */
+    margin: auto; /* จัดให้อยู่ตรงกลาง */
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #fff; /* สีพื้นหลัง Section */
+    border-radius: 8px; /* ขอบมน */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* เงา */
+}
+
+.social-links a {
+    display: inline-block; /* จัดเรียงแนวนอน */
+    margin: 0 10px;
+    font-size: 2rem; /* ขนาด Icon */
+    color: #50a3a2; /* สี Icon */
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333; /* สีพื้นหลัง Footer */
+    color: #fff; /* สีข้อความ Footer */
+    margin-top: 2rem;
+}
+
+/* Basic Responsive */
+@media (max-width: 600px) {
+    nav a {
+        display: block; /* บนจอมือถือ Link ใน Nav อาจจะเรียงลงมา */
+        margin: 0.5rem 0;
+    }
+
+    .social-links a {
+        font-size: 1.5rem; /* ลดขนาด Icon บนจอมือถือ */
+    }
+}
