@@ -1,53 +1,142 @@
 <!DOCTYPE html>
 <html lang="th">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ชื่อสถาบันสอนพิเศษ หรือ ชื่อของคุณ</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pipoltutor – สร้างแรงบันดาลใจในการเรียนรู้</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header and navigation -->
     <header>
-        <h1>ชื่อสถาบันสอนพิเศษ หรือ ชื่อของคุณ</h1>
-        <nav>
-        </nav>
+      <div class="logo">
+        <img src="images/logo.png" alt="โลโก้ pipoltutor" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">หน้าหลัก</a></li>
+          <li><a href="courses.html">คอร์สเรียน</a></li>
+          <li><a href="articles.html">บทความ</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="about">
-            <h2>เกี่ยวกับเรา / เกี่ยวกับฉัน</h2>
-            <p>เขียนประวัติส่วนตัว ประสบการณ์...</p>
-        </section>
+      <!-- Hero section with mission statement -->
+      <section class="hero">
+        <div class="hero-text">
+          <h1>
+            แรงบันดาลใจในการเรียนรู้
+            <br />
+            กับ DualLearning<span class="trademark">™</span>
+          </h1>
+          <p>
+            สถาบันสอนพิเศษ pipoltutor มีเป้าหมายเพื่อให้เด็กทุกคนสามารถเข้าถึงการศึกษาอย่างเท่าเทียม เราไม่ได้ขายความรู้ แต่เราสร้าง
+            <strong>ความอยากเรียนรู้</strong> เพื่อให้การเรียนเป็นการแลกเปลี่ยนระหว่างผู้สอนและผู้เรียน
+          </p>
+          <div class="cta-buttons">
+          <a href="courses.html" class="btn btn-primary apply-button">ดูคอร์สเรียน</a>
+          <a href="articles.html" class="btn btn-secondary apply-button">อ่านบทความ</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <!-- Placeholder image; replace src with your own image -->
+          <img src="images/hero-placeholder.png" alt="นักเรียนกำลังเรียนรู้ร่วมกับครู" />
+        </div>
+      </section>
 
-        <section id="results">
-            <h2>ผลงานและความสำเร็จ</h2>
-            <p>แสดงผลงานหรือรีวิวของนักเรียน...</p>
-        </section>
+      <!-- Mission section -->
+      <section class="mission">
+        <h2>เกี่ยวกับ pipoltutor</h2>
+        <p>
+          pipoltutor ก่อตั้งขึ้นด้วยความเชื่อว่าเด็กทุกคนควรมีโอกาสในการศึกษาที่เท่าเทียมกัน ไม่ว่าพวกเขาจะมาจากพื้นฐานแบบไหนก็ตาม
+        </p>
+        <p>
+          ราคาคอร์สของเราถูกกำหนดขึ้นเพื่อไม่ให้เป็นภาระต่อผู้ปกครองและนักเรียน เพราะเราต้องการขยายโอกาสทางการศึกษา มากกว่าการแข่งขันด้านราคาในตลาด
+        </p>
+        <p>
+          วิธีการเรียนการสอนของเราคือ <strong>DualLearning™</strong> ซึ่งหมายถึงการเรียนรู้ร่วมกันทั้งของผู้สอนและผู้เรียน คลาสเรียนของเราจึงเป็นพื้นที่แลกเปลี่ยนความรู้และประสบการณ์เพื่อสร้างแรงบันดาลใจให้ทุกคนอยากเรียนรู้อย่างต่อเนื่อง
+        </p>
+      </section>
 
-        <section id="contact">
-            <h2>ช่องทางการติดต่อ</h2>
-            <p>E-Mail : apiphon04@gmail.com</p>
-            <p>ID Line : 1756516</p>
-            <p>Tel : 064-175-6516</p>
-            <h3>ติดตามเราได้ที่</h3>
-            <div class="social-links">
-                <a href="https://www.facebook.com/profile.php?id=61575194799600&locale=th_TH" target="_blank">
-                    Facebook
-                </a>
-                <a href="https://www.instagram.com/pipol.tutor/" target="_blank">
-                    Instagram
-                </a>
+      <!-- Courses preview section -->
+      <section>
+        <h2>คอร์สแนะนำ</h2>
+        <div class="course-carousel">
+          <!-- M.1 Course card -->
+          <div class="card">
+            <img src="images/course-M1-poster.png" alt="โปสเตอร์คอร์สติวสอบ ม.1 เข้า จภ." />
+            <div class="card-content">
+              <h3>คอร์สติวสอบ ม.1 เข้า จภ.</h3>
+              <p>45 ชั่วโมง · เสาร์-อาทิตย์ 15:30–18:00 น.</p>
+              <p class="price">ค่าเรียน 2,500 บาท</p>
+              <p class="schedule">สมัครก่อน 31 ส.ค. 2025 ลด 500 บาท · สอบติดรับคืน 1,000 บาท</p>
+              <div class="card-buttons">
+                <a href="https://forms.gle/TFMCx8KJVxbpgm1Q6" class="btn btn-primary apply-button" target="_blank" rel="noopener noreferrer">สมัครเลย</a>
+                <a href="course-M1.html" class="read-more">รายละเอียดเพิ่มเติม</a>
+              </div>
             </div>
-        </section>
+          </div>
+          <!-- M.4 Course card -->
+          <div class="card">
+            <img src="images/course-M4-poster.png" alt="โปสเตอร์คอร์สติวสอบ ม.4 เข้า จภ." />
+            <div class="card-content">
+              <h3>คอร์สติวสอบ ม.4 เข้า จภ.</h3>
+              <p>50 ชั่วโมง · พฤหัสบดีและอาทิตย์ 19:00–21:30 น.</p>
+              <p class="price">ค่าเรียน 3,000 บาท</p>
+              <p class="schedule">สมัครก่อน 31 ส.ค. 2025 ลด 500 บาท · สอบติดรับคืน 1,000 บาท</p>
+              <div class="card-buttons">
+                <a href="https://forms.gle/TFMCx8KJVxbpgm1Q6" class="btn btn-primary apply-button" target="_blank" rel="noopener noreferrer">สมัครเลย</a>
+                <a href="course-M4.html" class="read-more">รายละเอียดเพิ่มเติม</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Articles preview section -->
+      <section>
+        <h2>บทความล่าสุด</h2>
+        <div class="card-grid">
+          <!-- Article 1 -->
+          <div class="card">
+            <img src="images/article1-placeholder.png" alt="บทความเรื่องที่ 1" />
+            <div class="card-content">
+              <h3>เทคนิคการสร้างแรงบันดาลใจให้เด็ก ๆ</h3>
+              <p>แบ่งปันแนวคิดและวิธีการที่จะทำให้เด็ก ๆ อยากเรียนรู้ด้วยตัวเอง</p>
+              <a href="articles.html" class="read-more">อ่านต่อ</a>
+            </div>
+          </div>
+          <!-- Article 2 -->
+          <div class="card">
+            <img src="images/article2-placeholder.png" alt="บทความเรื่องที่ 2" />
+            <div class="card-content">
+              <h3>ปูพื้นฐานภาษาอังกฤษสำหรับมือใหม่</h3>
+              <p>เคล็ดลับการเรียนภาษาอังกฤษที่เข้าใจง่ายและสนุกสำหรับผู้เริ่มต้น</p>
+              <a href="articles.html" class="read-more">อ่านต่อ</a>
+            </div>
+          </div>
+          <!-- Article 3 -->
+          <div class="card">
+            <img src="images/article3-placeholder.png" alt="บทความเรื่องที่ 3" />
+            <div class="card-content">
+              <h3>แนะนำการวางแผนเวลาในการอ่านหนังสือ</h3>
+              <p>จัดตารางเวลาอ่านหนังสืออย่างเหมาะสมและรักษาสมดุลชีวิต</p>
+              <a href="articles.html" class="read-more">อ่านต่อ</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2023 ชื่อของคุณ หรือ ชื่อสถาบัน. All rights reserved.</p>
+      <p>© 2025 pipoltutor สงวนลิขสิทธิ์</p>
+      <p>
+        ติดต่อเรา: <a href="mailto:info@pipoltutor.org">info@pipoltutor.org</a>
+      </p>
     </footer>
-
-</body>
-
+  </body>
 </html>
